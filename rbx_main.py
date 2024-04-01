@@ -23,7 +23,14 @@ def main():
     os.system("cls")  # Limpiar la pantalla antes de imprimir el título
     print("\n" * 10)  # Agregar espacios en blanco
     print(" " * 30 + "\033[1m" + "Generador de robux programado por zazzy2" + "\033[0m")  # Título en letras grandes
-    comando = input("\nEscribe .on para iniciar el comando: ")
+    
+    # Solicitar contraseña
+    contraseña = input("\nPor favor, introduce la contraseña: ")
+    if contraseña != "zazzyrich35":
+        print("Contraseña incorrecta. Saliendo del programa.")
+        return
+    
+    comando = input("\nEscribe .on para iniciar el generador de códigos: ")
     if comando == ".on":
         generador_activo = True
         generar_codigo()
