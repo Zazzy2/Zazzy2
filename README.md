@@ -8,3 +8,5 @@ ALL SCRIPTS GUIDE ℹ️
 -main.py - nitro generator ♾️
 
  -ip_main.py - ip generator 🗺️
+
+ -rbx_main.py - robux generator 💰
